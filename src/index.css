@@ -1,3 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --font-base: "Inter", sans-serif;
+
+  --primary-color: #FF5C00;
+  --p-text-color: #242120;
+  --dark-color: #222222;
+  --black-color: #000000;
+  --primary-light-color: #FFF8F5;
+  --white-color: #ffffff;
+  --customer-color: #0D019A;
+  --customer-backgraound-color: #EEF8FF;
+  --vendor-color: #049A01;
+  --vendor-backgraound-color: #F0FFEE;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +35,5 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
