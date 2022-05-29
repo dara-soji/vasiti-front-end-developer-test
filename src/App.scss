@@ -1,0 +1,67 @@
+.App {
+  
+  .head-text {
+    text-align: center;
+    color: var(--black-color);
+    text-transform: capitalize;
+    font-family: 'Inter';
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    text-align: left;
+
+  
+    span {
+      color: var(--secondary-color);
+    }
+  
+    @media screen and (min-width: 2000px) {
+      font-size: 4rem;
+    }
+  
+    @media screen and (max-width: 450px) {
+      font-size: 32px;
+      line-height: 40px;
+
+    }
+  }
+  
+  .p-text {
+    font-size: 1rem;
+    text-align: left;
+    color: var(--gray-color);
+    line-height: 1.5;
+  
+    @media screen and (min-width: 2000px) {
+      font-size: 1.75rem;
+    }
+    @media screen and (max-width: 450px) {
+      font-size: .8rem;
+    }
+  
+  }
+  
+  .bold-text {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--darkGray-color);
+    text-align: left;
+  
+    @media screen and (min-width: 2000px) {
+      font-size: 2rem;
+    }
+  
+    @media screen and (max-width: 450px) {
+      font-size: 1.1rem;
+    }
+  }
+  
+  
+  .app__flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+}

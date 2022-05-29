@@ -1,0 +1,81 @@
+.header{
+    width: 100%;
+    min-height: 596px;
+
+
+    .header__content{
+        width: 50%;
+        flex-direction: column;
+        padding-left: 14%;
+        text-align: left;
+        padding-right: 40px;
+
+        h1{
+        text-align: left;
+            margin-bottom: 40px;
+        }
+
+        p{
+            margin-bottom: 40px;
+            text-align: left;
+
+        }
+
+        @media screen and (max-width: 1000px) {
+            width: 100%;
+        }
+    }
+
+    .header__image{
+        width: 50%;
+        height: 100%;
+        overflow: hidden;
+
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        .header__image-container{
+            width: 532px;
+            height: 568px;
+            background-image: url("https://s3-alpha-sig.figma.com/img/7f83/0fb5/9e42217f7133eee7cf9dac361d7af33d?Expires=1654473600&Signature=aE0jjA5uAUZ6FPNsFq4XZC2TvJYs6O-Q5qJoKMXpXA~JOfeR2BNACZwI4vXybiFZiHw2zJSfFFF0ZaKJN6KW44L9ikrn~bkDQuxd7FWX34ZwVyCkZmTNLbNZf9600AZJJa8Qr5yj3OOAPDBv9ONSE5elep9yoUcf9wpE-U0B8oeCaMT0tpRFsW8tuLLOCjKDMmCRidhFfPkYs-SwwJ5nt7XoVSuAhKkw8BPi-ASleTuZWHXAaBO~Ajv4tx99NxGZBNDRjRzezT45S1KxFWa7Vc8eiKMucfTizIzbAafcQTs8DKKW2WjIFtTOt9JJkuzV~bGiq1mcUQgPOHuUMHtxtg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+            background-position: top center;
+            background-size: 150%;
+            background-repeat: no-repeat;
+            z-index: 10;
+
+
+            @media screen and (max-width: 450px) {
+                width: 430px;
+                height: 450px;
+
+            }
+        }
+
+        .header__image-circle{
+            width: 711px;
+            height: 711px;
+            border-radius: 50%;
+            background-color: var(--primary-light-color);
+            position: absolute;
+            z-index: -1;
+            top: 0;
+
+            @media screen and (max-width: 450px) {
+                width: 530px;
+                height: 550px;
+                top: 5%;
+
+            }
+        }
+
+        @media screen and (max-width: 1000px) {
+            width: 100%;
+        }
+    }
+
+    @media screen and (max-width: 1000px) {
+        flex-direction: column;
+    }
+
+}
