@@ -1,6 +1,7 @@
 .header{
     width: 100%;
     min-height: 596px;
+    
 
 
     .header__content{
@@ -31,6 +32,7 @@
         height: 100%;
         overflow: hidden;
 
+        align-self: flex-end;
         position: relative;
         display: flex;
         justify-content: center;
